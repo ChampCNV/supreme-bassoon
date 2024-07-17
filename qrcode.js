@@ -1,3 +1,5 @@
+import QRCode from "qrcode"
+
 // Include the uuid library for generating unique IDs
 const { v4: uuidv4 } = require('uuid');
 // Include the qrcode library for generating QR codes
