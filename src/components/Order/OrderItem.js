@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Currency from "react-currency-formatter";
 import axios from "axios";
+import QRcode from "qrcode"
 
 function OrderItem({ item }) {
   const [qrCodeUrl, setQrCodeUrl] = useState("");
